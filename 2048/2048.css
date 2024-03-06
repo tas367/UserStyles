@@ -1,12 +1,12 @@
 /* ==UserStyle==
-@name           2048 Dark Mode
+@name           2048 Dark Mode 
 @namespace      https://github.com/tas367/UserStyles/2048
-@version        1.0.1
-@description    Darkmode for Neiunderscore version of 2048.
+@version        1.0.2
+@description    Darkmode for 2048
 @author         tas367
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://2048.neiunderscore.com/") {
+@-moz-document url("https://2048.neiunderscore.com/" ), url("https://meep.cubing.net/2048/"), url("https://play2048.co/") {
 html, body {
   margin: 0;
   padding: 0;
