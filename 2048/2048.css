@@ -6,7 +6,7 @@
 @author         tas367
 ==/UserStyle== */
 
-@-moz-document url("https://2048.neiunderscore.com/" ), url("https://meep.cubing.net/2048/"), url("https://play2048.co/") {
+@-moz-document domain("https://2048.neiunderscore.com/" ), domain("https://meep.cubing.net/2048/"), domain("https://play2048.co/") {
 html, body {
   margin: 0;
   padding: 0;
