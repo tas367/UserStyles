@@ -1,32 +1,23 @@
 /* ==UserStyle==
 @name           2048 Dark Mode 
-@namespace      https://github.com/tas367/UserStyles
-@version        1.0.2
+@namespace      https://github.com/tas367/UserStyles/2048
+@version        1.0.3
 @description    Darkmode for 2048
 @author         tas367
 ==/UserStyle== */
 
-@-moz-document domain("2048.neiunderscore.com" ), domain("meep.cubing.net"), domain("play2048.co") {
+@-moz-document domain("2048.neiunderscore.com"), domain("meep.cubing.net"), domain("play2048.co") {
 html, body {
-  margin: 0;
-  padding: 0;
-  background: #111111;
-  color: #776e65;
-}
+    background: #111;
 }
 .score-container,
 .best-container,
 #timer {
-  background: #242424;
-  color: white;
-}
-.score-container:after,
-.best-container:after,
-#timer:after {
-  color: #eee4da;
+    background: #242424;
 }
 .timertile {
-  box-shadow:inset 0 0 0 1px rgba(100, 100, 100, 0.2);
-  color: #ffffff;
-  background: #191919;
+    box-shadow: inset 0 0 0 1px rgba(100, 100, 100, 0.2);
+    background: #191919;
+    color: #fff;
+}
 }
