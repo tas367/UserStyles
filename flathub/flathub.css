@@ -1,15 +1,15 @@
 /* ==UserStyle==
 @name           Flathub Dark Mode
 @namespace      https://github.com/tas367/UserStyles/
-@version        1.0.0
+@version        1.0.2
 @description    Darkmode for Flathub
 @author         tas367
 ==/UserStyle== */
 
 @-moz-document domain("flathub.org") {
 :root {
-    --flathub-granite-gray: 32 32 32;
-    --flathub-arsenic: 17 17 17;
+    --flathub-granite-gray: 0 0 13;
+    --flathub-arsenic: 0 0 7;
     --flathub-dark-gunmetal: 0 0 0;
 }
 }
