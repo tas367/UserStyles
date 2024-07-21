@@ -15,4 +15,7 @@
 .bg-gray-500 {
     background-color: rgb(5 5 5/var(--tw-bg-opacity));
 }
+.dark\:hover\:bg-flathub-arsenic\/90:hover:is(.dark *) {
+    background-color: hsl(var(--flathub-arsenic)/.8);
+}
 }
