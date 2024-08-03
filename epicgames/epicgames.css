@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name           Epic Games dark transaction screen
+@namespace      https://github.com/tas367/UserStyles
+@version        1.0.0
+@description    Epic Games dark transaction screen
+@author         Tas367
+==/UserStyle== */
+
+@-moz-document url-prefix("https://store.epicgames.com") {
+    :root {
+        --pmt-ui-color-bg-default: #000;
+        --pmt-ui-color-bg-paper: #111;
+        --pmt-ui-color-text-primary: #fff;
+        --pmt-ui-color-text-secondary: #fff;
+    }
+    .earn-reward {
+        color: #000;
+    }
+    .payment-tip {
+        background-color: var(--pmt-ui-color-bg-default);
+    }
+}
