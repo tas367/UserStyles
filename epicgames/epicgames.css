@@ -14,7 +14,7 @@
         --pmt-ui-color-text-secondary: #fff;
     }
     .earn-reward {
-        color: #000;
+        color: #fff;
     }
     .payment-tip {
         background-color: var(--pmt-ui-color-bg-default);
