@@ -8,14 +8,14 @@
 
 @-moz-document domain("flathub.org") {
 :root {
-    --flathub-granite-gray: 0 0 13;
-    --flathub-arsenic: 0 0 7;
-    --flathub-dark-gunmetal: 0 0 0;
+    --flathub-granite-gray: 24.78% 0 0;
+    --flathub-arsenic: 17.76% 0 0;
+    --flathub-dark-gunmetal: 0% 0 0;
 }
 .bg-gray-500 {
     background-color: rgb(5 5 5/var(--tw-bg-opacity));
 }
 .dark\:hover\:bg-flathub-arsenic\/90:hover:is(.dark *) {
-    background-color: hsl(var(--flathub-arsenic)/.8);
+    background-color: oklch(var(--flathub-arsenic)/.8);
 }
 }
